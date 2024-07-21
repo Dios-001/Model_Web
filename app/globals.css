@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.backgroundImage{
+  background-image: url(../public/modelpic.png);
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

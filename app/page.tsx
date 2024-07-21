@@ -1,4 +1,5 @@
 'use client'
+
 import { useGSAP } from "@gsap/react";
 import Navbar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
@@ -9,7 +10,6 @@ import { FaYoutube } from "react-icons/fa6";
 import { IoChatboxEllipses } from "react-icons/io5";
 import IconProvider from "@/components/IconProvider";
 import gsap from "gsap";
-
 
 export default function Home() {
  
@@ -26,7 +26,7 @@ export default function Home() {
   })
 
   return (
-    <div className="h-screen w-full bg-black bg-no-repeat xl:bg-contain bg-center bg-[url('/modelpic.png')]">
+    <div className="h-screen w-full bg-black bg-no-repeat xl:bg-contain bg-center backgroundImage">
    <div className="navbar pt-6 pb-6 text-white hover:cursor-pointer">
     <Navbar/>
     </div>
